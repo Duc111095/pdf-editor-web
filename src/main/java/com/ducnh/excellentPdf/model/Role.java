@@ -3,7 +3,7 @@ package com.ducnh.excellentPdf.model;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import com.ducnh.excellentPdf.modelconstants.CommonConstant;
+import com.ducnh.excellentPdf.model.constants.CommonConstant;
 
 public enum Role {
 	

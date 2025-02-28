@@ -1,4 +1,4 @@
-package com.ducnh.excellentPdf.modelconstants;
+package com.ducnh.excellentPdf.model.constants;
 
 public final class CommonConstant {
 	
