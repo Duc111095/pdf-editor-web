@@ -1,4 +1,4 @@
-package com.ducnh.excellentPdf;
+package com.ducnh.excellentPdf.repository;
 
 import java.util.Set;
 
