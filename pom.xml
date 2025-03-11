@@ -44,6 +44,11 @@
 			<artifactId>spring-boot-starter-jdbc</artifactId>
 		</dependency>
 		<dependency>
+		    <groupId>jakarta.servlet</groupId>
+		    <artifactId>jakarta.servlet-api</artifactId>
+		    <scope>provided</scope>
+		</dependency>
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-oauth2-client</artifactId>
 		</dependency>
@@ -64,6 +69,11 @@
 					<artifactId>spring-boot-starter-tomcat</artifactId>
 				</exclusion>
 			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>io.github.pixee</groupId>
+			<artifactId>java-security-toolkit</artifactId>
+			<version>1.2.1</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.session</groupId>
@@ -168,6 +178,26 @@
 		    <groupId>commons-io</groupId>
 		    <artifactId>commons-io</artifactId>
 		    <version>2.18.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.snakeyaml</groupId>
+			<artifactId>snakeyaml-engine</artifactId>
+			<version>2.9</version>
+		</dependency>
+		<dependency>
+			<groupId>com.drewnoakes</groupId>
+			<artifactId>metadata-extractor</artifactId>
+			<version>2.19.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.vladsch.flexmark</groupId>
+			<artifactId>flexmark-html2md-converter</artifactId>
+			<version>0.64.8</version>
+		</dependency>
+		<dependency>
+			<groupId>com.fathzer</groupId>
+			<artifactId>javaluator</artifactId>
+			<version>3.0.5</version>
 		</dependency>
 		<dependency>
 		    <groupId>org.springdoc</groupId>
